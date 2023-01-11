@@ -84,26 +84,7 @@ if (phrase1 == phrase2) {
 } else (console.log("It is not a Palindrome"));
 
 
-phrase2ToCheck = "A man, a plan, a canal, Panama!"
 
-let newphrase1 = "";
-
-for (let i = 0; i < phrase2ToCheck.length; i++){
-    if (phrase2ToCheck[i] == " "){
-        continue 
-    }
-  newphrase1 += phrase2ToCheck[i];
-}
-
-
-let newphrase2 = "";
-
-for (let i = phrase2ToCheck - 1; i >= 0; i--){
-   if (phrase2ToCheck[i] == " "){
-    continue
-   }
-   newphrase2 += phrase2ToCheck[i];
-}
 
 phrase2ToCheck = "a man, a plan, a canal, panama"
 
